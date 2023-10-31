@@ -1,3 +1,4 @@
+-- Create a table with all the columns in .csv file, so that we can esily import that pizza_sales.csv file..
 create table pizzaSales (
 	pizza_id int8 primary key,
 	order_id int8,
