@@ -3,7 +3,12 @@ Imported the data from Comma Separated Files(CSV) in PostgreSQL and executed que
 
 # PowerBI
 I have successfully extracted and transformed the data from the PostgreSQL database in Power BI.
-And checked for data types, errors, corrections, and blank values, 
-We are ready to move on to the next steps: Data Analysis, Creating visualizations, Bulding reports, Publish report and converting that report into Dashboard.
+And checked for data types, errors, corrections, and blank values.
+Then Analysed the Data, used measures to Create visualizations, Build reports, Published report and converted that report into Dashboard.
 
-created measures for KPIs
+Created measures for KPIs
+1. Total Orders = DISTINCTCOUNT('public pizzasales'[order_id])
+2. Total Revenue = SUM('public pizzasales'[total_price])
+3. Total Pizzas Sold = SUM('public pizzasales'[quantity])
+4. Average Values = [Total Revenue]/[Total Orders]
+5. Avg Pizza Per Order = [Total Pizzas Sold]/[Total Orders]
