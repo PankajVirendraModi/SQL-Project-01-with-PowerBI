@@ -14,7 +14,7 @@ Created measures for KPIs
 4. Average Values = [Total Revenue]/[Total Orders]
 5. Avg Pizza Per Order = [Total Pizzas Sold]/[Total Orders]
 
-The report is consists of two pages:
+The report consists of two pages:
 1. Home
 2. The names of the top five and bottom five pizzas ranked
    according to their quantity sold, total revenue generated, and the total number of orders received.”
