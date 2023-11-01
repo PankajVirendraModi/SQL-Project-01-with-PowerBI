@@ -2,7 +2,7 @@
 Imported the data from Comma Separated Files(CSV) in PostgreSQL and executed queries to retrieve data
 
 # PowerBI 
-## Link :- bit.ly/PizzaSalesReport
+## Link :- bit.ly/PizzaSalesDashboard
 I have successfully extracted and transformed the data from the PostgreSQL database in Power BI.
 And checked for data types, errors, corrections, and blank values.
 Then Analysed the Data, used measures to Create visualizations, Build reports, Published report and converted that report into Dashboard.
